@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./contato-sobre.css">
+    <link rel="shortcut icon" href="./img/contatos.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><img src="./img/LogoPAGINA.svg" alt="LogoPAGINA"></span>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section class="contato">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <h2>Contato</h2>
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                    <label>Mensagem</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+
+                    <input type="hidden" name="accessKey" value="07a380d8-b2b7-48d6-ac0a-515101de446f">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+                </form>
+        </section>
+    <footer>
+        <p class="footer-copy">Copyright - Lucia Ferreira 2023</p>
+        <p class="footer-autor">Direitos reservados <a href="https://github.com/CarlosGabrielRosa?tab=repositories" target="_blank">&lt;Carlos Dev/&gt;</a></p>
+    </footer>
+</body>
+</html>
